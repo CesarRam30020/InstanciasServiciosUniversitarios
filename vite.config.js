@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  // base: 'https://CesarRam30020.github.io/instancias-servicios-universitarios/'
+  base: 'https://cesarram30020.github.io/InstanciasServiciosUniversitarios/'
 })
