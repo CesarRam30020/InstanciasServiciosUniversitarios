@@ -101,7 +101,7 @@
               <section class="row">
                 <h4 class="text-center">Proceso</h4>
                 <div class="col-md-6 text-center">
-                  <img style="width: auto; height: 250px;" src="../../assets/images/oficio.png" alt="tu navegador no soporta imagenes">
+                  <img style="width: auto; height: 250px;" src="../../assets/images/oficio.PNG" alt="tu navegador no soporta imagenes">
                 </div>
 
                 <div class="col-md-6">
