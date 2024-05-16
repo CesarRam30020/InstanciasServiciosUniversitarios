@@ -88,27 +88,14 @@
               </section>
 
               <section class="row">
-                <h4 class="text-center">Servicios que ofrece la biblioteca</h4>
-                <div class="col-md-6 text-center">
-                  <img style="width: auto; height: 280px;" src="../../assets/images/libros.jpg" alt="tu navegador no soporta imagenes">
-                </div>
-
-                <div class="col-md-6">
-                  <ul>
-                    <li>Libros a préstamo externo o consulta interna</li>
-                    
-                    <li>Idiomas</li>
-                    
-                    <li>Se hace préstamo de computadoras, tabletas, y otros materiales de estudio.</li>
-
-                    <li>Planta alta ofrecen idiomas (Inglés, Frances, Italiano, Ruso, Alemán, Mandarín, Español y Japones, esos servicios son gratuitos para todos los estudiantes de CUCEI).</li>
-
-                    <li>Presta de cubículos de 4 a 6 personas máximo.</li>
-
-                    <li>La biblioteca cuenta con préstamos físicos y digitales.</li>
-
-                    <li>Rossetta Stone (Es una plataforma de aprendizaje autónomo)</li>
-                  </ul>
+                <h4 class="text-center">Accesibilidad física y online</h4>
+                <div class="col-md-12">
+                  <p>
+                    La biblioteca cuenta con prestamos físicos y digitales, para ingresar al portal digital, debes ingresar a la <a href="https://wdg.biblio.udg.mx/" target="_blank">pagina oficial</a> o desde la pagina de CUCEI, en el apartado donde dice biblioteca. Te saldrán 2 opciones las cuales una es para consultar los libros disponibles en físico, y el otro para encontrarlos digitalmente.
+                  </p>
+                  <p>
+                    Para ingresar a esa pagina debes ingresar tu código de estudiante. Una vez ingresado tendrás a tu disposición acceso a revistas científicas especializadas, tesis, 4 millones de libros, también puedes entrar a artículos académicos (Son todos gratuitos).
+                  </p>
                 </div>
               </section>
             </div>
