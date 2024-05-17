@@ -73,13 +73,15 @@
   </div>
 
   </section>
+
+  <footer-vue/>
 </template>
 
 <script>
 import HeaderVue from '../Header.vue'
-
+import FooterVue from '../Footer.vue'
 export default {
-  components: { HeaderVue }  
+  components: { HeaderVue, FooterVue }
 }
 </script>
 

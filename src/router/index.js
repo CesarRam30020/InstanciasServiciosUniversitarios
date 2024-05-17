@@ -12,6 +12,8 @@ import centroIdiomas from '@/views/servicios/centroIdiomas.vue'
 import divtic from '@/views/servicios/divtic.vue'
 import laboratorios from '@/views/servicios/laboratorios.vue'
 import egresados from '@/views/servicios/egresados.vue'
+import cucei from '@/views/servicios/cucei.vue'
+
 const router = createRouter({
   history: createWebHistory('#'),
   routes: [
@@ -83,7 +85,7 @@ const router = createRouter({
     {
       path: '/cucei',
       name: 'cucei',
-      component: HomeView
+      component: cucei
     },
   ]
 })
