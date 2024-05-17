@@ -5,7 +5,8 @@ import bibliotecaVue from '@/views/servicios/bibliotecaVue.vue'
 import laboratoriosMedicos from '@/views/servicios/laboratoriosMedicos.vue'
 import culturalDeportivo from '@/views/servicios/culturalDeportivo.vue'
 import vinculacionPracticas from '@/views/servicios/vinculacionPracticas.vue'
-
+import controlEscolar from '@/views/servicios/controlEscolar.vue'
+import becasIntercambios from '@/views/servicios/becasIntercambios.vue'
 const router = createRouter({
   history: createWebHistory('#'),
   routes: [
@@ -42,12 +43,12 @@ const router = createRouter({
     {
       path: '/control-escolar',
       name: 'control-escolar',
-      component: HomeView
+      component: controlEscolar
     },
     {
       path: '/becas-intercambios',
       name: 'becas-intercambios',
-      component: HomeView
+      component: becasIntercambios
     },
     {
       path: '/tecnologias-aprendizaje',
