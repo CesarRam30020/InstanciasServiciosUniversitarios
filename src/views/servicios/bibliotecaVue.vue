@@ -7,7 +7,7 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Biblioteca</h1>
+            <h1 class="card-title text-center">Biblioteca</h1>
             <div class="card-text">
               <section class="row">
                 <h4 class="text-center">Ubicación</h4>

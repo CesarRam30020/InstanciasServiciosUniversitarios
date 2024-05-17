@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import servicioSocial from '@/views/servicios/servicioSocial.vue'
 import bibliotecaVue from '@/views/servicios/bibliotecaVue.vue'
+import laboratoriosMedicos from '@/views/servicios/laboratoriosMedicos.vue'
 
 const router = createRouter({
   history: createWebHistory('#'),
@@ -24,7 +25,7 @@ const router = createRouter({
     {
       path: '/laboratorios-medicos',
       name: 'laboratorios-medicos',
-      component: HomeView
+      component: laboratoriosMedicos
     },
     {
       path: '/actividades-culturales',
