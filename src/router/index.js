@@ -7,6 +7,9 @@ import culturalDeportivo from '@/views/servicios/culturalDeportivo.vue'
 import vinculacionPracticas from '@/views/servicios/vinculacionPracticas.vue'
 import controlEscolar from '@/views/servicios/controlEscolar.vue'
 import becasIntercambios from '@/views/servicios/becasIntercambios.vue'
+import coordinacionTectnologias from '@/views/servicios/coordinacionTectnologias.vue'
+import centroIdiomas from '@/views/servicios/centroIdiomas.vue'
+import divtic from '@/views/servicios/divtic.vue'
 const router = createRouter({
   history: createWebHistory('#'),
   routes: [
@@ -53,17 +56,17 @@ const router = createRouter({
     {
       path: '/tecnologias-aprendizaje',
       name: 'tecnologias-aprendizaje',
-      component: HomeView
+      component: coordinacionTectnologias
     },
     {
       path: '/centro-idiomas',
       name: 'centro-idiomas',
-      component: HomeView
+      component: centroIdiomas
     },
     {
       path: '/divtic',
       name: 'divtic',
-      component: HomeView
+      component: divtic
     },
     {
       path: '/laboratorios',
