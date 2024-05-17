@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import servicioSocial from '@/views/servicios/servicioSocial.vue'
 import bibliotecaVue from '@/views/servicios/bibliotecaVue.vue'
 import laboratoriosMedicos from '@/views/servicios/laboratoriosMedicos.vue'
+import culturalDeportivo from '@/views/servicios/culturalDeportivo.vue'
+import vinculacionPracticas from '@/views/servicios/vinculacionPracticas.vue'
 
 const router = createRouter({
   history: createWebHistory('#'),
@@ -30,12 +32,12 @@ const router = createRouter({
     {
       path: '/actividades-culturales',
       name: 'actividades-culturales',
-      component: HomeView
+      component: culturalDeportivo
     },
     {
       path: '/practicas-profesionales',
       name: 'practicas-profesionales',
-      component: HomeView
+      component: vinculacionPracticas
     },
     {
       path: '/control-escolar',
