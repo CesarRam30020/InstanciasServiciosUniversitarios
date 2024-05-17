@@ -10,6 +10,8 @@ import becasIntercambios from '@/views/servicios/becasIntercambios.vue'
 import coordinacionTectnologias from '@/views/servicios/coordinacionTectnologias.vue'
 import centroIdiomas from '@/views/servicios/centroIdiomas.vue'
 import divtic from '@/views/servicios/divtic.vue'
+import laboratorios from '@/views/servicios/laboratorios.vue'
+import egresados from '@/views/servicios/egresados.vue'
 const router = createRouter({
   history: createWebHistory('#'),
   routes: [
@@ -71,12 +73,12 @@ const router = createRouter({
     {
       path: '/laboratorios',
       name: 'laboratorios',
-      component: HomeView
+      component: laboratorios
     },
     {
       path: '/egresados',
       name: 'egresados',
-      component: HomeView
+      component: egresados
     },
     {
       path: '/cucei',
